@@ -12,3 +12,10 @@ docs/.bundle/
 .bundle/
 Gemfile.lock
 docs/Gemfile.lock
+
+# resume
+resume.pdf
+resume.md
+
+# images
+**/*.jpeg
