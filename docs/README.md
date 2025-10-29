@@ -1,113 +1,107 @@
 # 職務経歴書
 
-## 意欲・興味
+## 基本情報
 
-- （例）ドメイン知識の抽象化、再現性のある改善、品質と速度の両立
+- 氏名：野田 悠平
+- 作成日：2025 年 10 月版
 
-## スキル
+## 職務要約
 
-### 開発手法
+AWS・Python・Terraform などのクラウドおよびインフラ自動化技術を中心に 5 年の実務経験を有し、官公庁向けインフラ運用、婚活マッチングサービスの SRE、介護事業向け AI サービスのバックエンド開発を担当。近年は Azure・Kubernetes 環境下で AI 関連サービス開発にも従事し、クラウド間の知見を活かした開発・運用自動化を推進。
 
-- （例）スクラム／カンバン、モブプロ、DDD、クリーンアーキテクチャ
+## 活かせるスキル・経験
 
-### 言語
+| 技術領域      | 経験年数 | スキルレベル |
+| ------------- | -------- | ------------ |
+| AWS           | 5 年以上 | ★★★★★        |
+| Python        | 5 年以上 | ★★★★★        |
+| Typescript    | 4 年以上 | ★★★★★        |
+| Azure         | 2 年以上 | ★★★          |
+| Terraform     | 4 年以上 | ★★★★★        |
+| MySQL         | 4 年以上 | ★★★          |
+| Elasticsearch | 3 年以上 | ★★★          |
+| Kubernetes    | 2 年以上 | ★★           |
 
-- （例）TypeScript, Go, Python, Ruby, Java
+## 職務経歴
 
-### フレームワーク等
+### 株式会社 Crane&I（2020 年 8 月〜2022 年 1 月）
 
-- （例）React, Next.js, Node.js, Express, Spring Boot, FastAPI
+##### 官公庁マイナンバーサービスインフラ運用保守
 
-### 通信プロトコル
+- 技術スタック
+  - Apache
+  - Tomcat
+  - AWS（EC2, RDS, S3, Lambda, CloudWatch）
+- 開発手法：ウォーターフォール
+- 主な実績：
+  - Postfix から AWS SES への移行を主導
+  - セキュリティグループ更新の自動化（Lambda + EventBridge）
+  - 設計書・手順書の作成、官公庁向け技術資料の作成
 
-- （例）HTTP/REST, gRPC, WebSocket, GraphQL
+### 株式会社 Rosso（2022 年 2 月〜2023 年 9 月）
 
-### RDB
+##### 婚活マッチングアプリ SRE
 
-- （例）PostgreSQL, MySQL
+- 技術スタック
+  - Terraform
+  - AWS
+  - Datadog
+- 開発手法：スクラム
+- 主な実績：
+  - リスト攻撃対策（WAF + Lambda@Edge）設計・導入
+  - ウイルススキャンサーバー設計構築（ClamAV）
+  - API サーバー構築（Spring Boot）およびバッチ自動実行環境構築
+  - CI/CD パイプライン設計・構築（CodeBuild, CodeDeploy, Step Functions）
+  - 業者検知の自動化（Athena + Lambda）
 
-### クラウド
+### 株式会社 Hmcomm（2023 年 10 月〜現在）
 
-#### AWS
+##### 介護事業向け AI サービス バックエンド開発
 
-- （例）EC2, ECS/Fargate, Lambda, API Gateway, S3, RDS, CloudWatch
+- 技術スタック
+  - Azure
+  - Kubernetes（AKS）
+  - FastAPI
+  - MySQL
+  - Elasticsearch（ECK）
+- 開発手法：スクラム
+- 主な実績：
+  - Elasticsearch 開発用環境と日本語形態素解析（Sudachi）設定、同義語辞書、インデックス作成・検索スクリプト群を管理
+  - Kafka, MySQL バイナリログを使用して MySQL → Elasticsearch のデータ同期を実現
+  - Kubernetes Helm により、API と Kafka, Elasticsearch のデプロイを自動化
+  - Prophet を使用した時系列データの異常検知パイプラインを構築
+  - 設計・開発・保守運用を担当
 
-#### Google Cloud
+##### 英作文自動採点アプリ開発
 
-- （例）GKE, Cloud Run, Cloud Functions, Cloud SQL, BigQuery
+- 技術スタック
+  - AWS
+  - FastAPI
+  - MySQL
+  - Redis
+  - DynamoDB
+  - Next.js
+- 開発手法：スクラム
+- 主な実績：
+  - API 開発・データベース設計・アーキテクチャ設計を担当
+  - 要件定義・設計・開発・保守運用を担当
 
-### SaaS/PaaS
+##### 自治体向け AI 電話応対サービス
 
-- （例）GitHub, Vercel, Firebase, Auth0, Sentry, Datadog
+- 技術スタック
+  - FastAPI
+  - Azure
+  - Azure OpenAI Realtime API
+  - Azure Cosmos DB
+  - Next.js(API Route)
+- 開発手法：スクラム
+- 主な実績：
+  - 電話着信をトリガーに、音声ストリーミングを Azure OpenAI Realtime API へ接続。STT → LLM 応答生成 → TTS をリアルタイム処理し、電話経由で自然対話できるコールボット基盤を実装
+  - Asterisk を用いたオンプレ PBX の実装
+  - 要件定義・設計・開発・保守運用を担当
 
-### その他
+## 自己 PR
 
-- （例）Terraform, Docker, Kubernetes, OpenAPI, CI/CD（GitHub Actions）
-
-## 職務経歴詳細
-
-### 例）株式会社〇〇
-
-#### 例）プロダクト A（B2B SaaS）
-
-【雇用形態】
-
-- 正社員
-
-【在籍期間】
-
-- 20xx/xx ~ 20xx/xx
-
-【チーム編成】
-
-- PM x 人
-- バックエンドエンジニア x 人
-- フロントエンドエンジニア x 人
-
-【ステークホルダー】
-
-- クライアント x 社
-
-【言語・フレームワーク】
-
-- （例）TypeScript / Node.js / React
-
-【インフラ】
-
-- AWS
-  - （例）ECS, RDS, ElastiCache, CloudWatch
-
-【通信プロトコル】
-
-- （例）HTTP/REST, gRPC
-
-【ツール】
-
-- （例）GitHub, Slack, Jira, Figma
-
-【プロダクトが属する業界】
-
-- （例）人事・採用
-
-【プロダクト概要】
-
-- （例）候補者獲得から選考管理まで一気通貫する SaaS。月間 ○○ 万 MAU。
-
-【チームの特徴・課題】
-
-- （例）スケールに伴うパフォーマンス課題、品質基盤不足、オンボーディングの属人化
-
-【チームでの役割】
-
-- （例）テックリードとして設計・レビュー、品質/運用基盤の整備、採用・育成
-
-【成果】
-
-- （例）主要 API の p95 を 40%短縮、障害件数を 50%削減、開発リードタイムを 30%短縮
-
----
-
-参考: 記載構成は以下の記事をベースにしています。
-
-- Zenn: 職務経歴書を GitHub で管理するノウハウ（Ryo）
-  - https://zenn.dev/ryo_f/articles/2f925f621e6d99
+私は、AWS や Python を中心としたクラウドインフラ・バックエンド開発の実務経験を 4 年以上積み、近年では Azure や Kubernetes を活用した AI サービス開発にも携わっています。Terraform や Lambda を用いた自動化を得意とし、システムの効率化と安定化を両立させる開発・運用基盤の構築に強みを持っています。
+これまで、官公庁のマイナンバーサービスでは AWS 環境の運用保守を担当し、Postfix から AWS SES への移行やセキュリティグループ更新の自動化など、堅牢性と保守性の向上に貢献しました。その後、婚活マッチングサービスの SRE として、WAF を活用したリスト攻撃対策や CICD パイプラインの整備、業者検知自動化などを実施し、サービスの信頼性と運用効率を大幅に改善しました。
+現在は、介護・教育分野の AI 関連サービスで、FastAPI や React を用いたバックエンド開発からインフラ設計まで一貫して対応しています。クラウド間の特性を理解したシステム設計と、課題解決を自走的に進める姿勢を大切にしており、技術面のみならずチーム全体の生産性向上にも寄与できるエンジニアです。新しい技術の吸収にも積極的で、生成 AI を含む次世代サービス開発にも柔軟に対応します。

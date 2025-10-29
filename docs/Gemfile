@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-remote-theme"
+
+# プロジェクト内にgemをインストールする設定
+# bundle config set --local path 'vendor/bundle' を実行済みと仮定
+

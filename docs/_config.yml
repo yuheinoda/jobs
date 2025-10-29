@@ -1,3 +1,6 @@
 remote_theme: pages-themes/cayman@v0.2.0
 title: 職務経歴書
-description: あなたの職務経歴書（GitHub Pages 公開）
+description: 職務経歴書
+
+plugins:
+  - jekyll-remote-theme

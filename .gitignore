@@ -3,3 +3,12 @@ package-lock.json
 yarn.lock
 pnpm-lock.yaml
 .DS_Store
+
+# Jekyll
+docs/_site/
+docs/.jekyll-cache/
+docs/vendor/
+docs/.bundle/
+.bundle/
+Gemfile.lock
+docs/Gemfile.lock
