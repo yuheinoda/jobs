@@ -1,0 +1,15 @@
+{
+  "name": "resume-pages",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint:text": "textlint \"docs/**/*.md\"",
+    "lint:md": "markdownlint \"**/*.md\"",
+    "lint": "npm run lint:text && npm run lint:md"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.39.0",
+    "textlint": "^13.4.1",
+    "textlint-rule-preset-japanese": "^10.0.1"
+  }
+}
