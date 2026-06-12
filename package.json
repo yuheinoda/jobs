@@ -9,12 +9,15 @@
     "setup:jekyll": "cd docs && bundle config set --local path 'vendor/bundle' && bundle install",
     "preview": "cd docs && bundle exec jekyll serve",
     "preview:host": "cd docs && bundle exec jekyll serve --host 0.0.0.0",
-    "pdf": "md-to-pdf docs/resume.md"
+    "pdf": "md-to-pdf docs/resume.md",
+    "rireki": "node rireki-sho/generate.js"
   },
   "devDependencies": {
     "markdownlint-cli": "^0.39.0",
     "textlint": "^13.4.1",
     "textlint-rule-preset-japanese": "^10.0.1",
-    "md-to-pdf": "^5.0.1"
+    "md-to-pdf": "^5.0.1",
+    "js-yaml": "^4.1.0",
+    "puppeteer": "^24.27.0"
   }
 }

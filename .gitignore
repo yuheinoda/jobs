@@ -17,5 +17,10 @@ docs/Gemfile.lock
 resume.pdf
 resume.md
 
+# 履歴書（個人情報・生成物）
+rireki-sho/main.yaml
+rireki-sho/*.pdf
+rireki-sho/photo.jpg
+
 # images
 **/*.jpeg
